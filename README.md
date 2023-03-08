@@ -13,5 +13,5 @@ A method to fit function using single qubit circuit.
 
 Original document site:[https://qml.baidu.com/tutorials/machine-learning/quantum-neural-network-approximating-functions.html](https://qml.baidu.com/tutorials/machine-learning/quantum-neural-network-approximating-functions.html)
 
-Differences from the document: add a multiple coefficient and a bias to the final output in order to fit functions in wider range
+Differences from the document: add a constant coefficient and a bias to the final output in order to fit functions in wider range
 
