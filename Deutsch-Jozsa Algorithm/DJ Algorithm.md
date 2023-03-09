@@ -57,18 +57,21 @@ $$
 1 \\ 0 \\ 0 \\ 0
 \end{pmatrix} ^T
 $$
+
 $$
 |01\rangle = 
 \begin{pmatrix}
 0 \\ 1 \\ 0 \\ 0
 \end{pmatrix} ^T
 $$
+
 $$
 |10\rangle = 
 \begin{pmatrix}
 0 \\ 0 \\ 1 \\ 0
 \end{pmatrix} ^T
 $$
+
 $$
 |11\rangle = 
 \begin{pmatrix}
