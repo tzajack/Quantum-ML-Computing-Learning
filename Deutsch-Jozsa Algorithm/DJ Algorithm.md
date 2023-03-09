@@ -82,12 +82,10 @@ $$
 Therefore, if the function is **balanced**, then $2$ of the functions value is $1$, the other $2$ functions' value is $0$.
 
 WLOG. we can set $V_f|e_0 \rangle$ with:
-$$
-\frac{1}{\sqrt{M}} 
+$ \frac{1}{\sqrt{M}} 
 \begin{pmatrix} 
 1 & 0 & 0 & 0 \\ 
 0 & 1 & 0 & 0 \\ 
 0 & 0 & -1 & 0 \\ 
 0 & 0 & 0 & -1 
-\end{pmatrix}
-$$
+\end{pmatrix} $
