@@ -1,5 +1,5 @@
 # QuantumLearning
-Python code for quantum computing topics
+Python code for quantum machine learning and Quleaf quantum circuit demostration for quantum computing algorithms
 
 
 ## Quantum Classifier
