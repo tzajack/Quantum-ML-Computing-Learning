@@ -53,7 +53,7 @@ Here, we rewrite the states with binary case with:
 
 $$
 |00\rangle = 
-\begin{pmatrix}
+\begin{matrix}
 1 \\ 0 \\ 0 \\ 0
-\end{pmatrix}
+\end{matrix}
 $$
