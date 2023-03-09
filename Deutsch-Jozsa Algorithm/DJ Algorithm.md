@@ -28,3 +28,13 @@ However, quantumly we need only $1$ query.
    If the outcome is $0$, the function is **constant**.
    If the outcome is not $0$, the function is **Balanced**.
    
+## 4.Simulation on Quleaf
+Let take $M=4$ as an example.
+
+We need $2$ qubits to demostrate the algorithm.
+
+The initial state of Quleaf on each qubit is always $|0 \rangle$, so apply two $H$ gate will prepare the Fourier state.
+
+![](https://github.com/tzajack/QuantumLearning/blob/main/Deutsch-Jozsa%20Algorithm/1.PNG)
+
+The state after reduced oracle is $V_f|e_0 \rangle = \frac{\Sigma^{M-1}{x=0} (-1)^{f(x)} |x \rangle  }{\sqrt(M) } $
