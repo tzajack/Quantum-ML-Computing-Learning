@@ -49,7 +49,7 @@ $$
 V_f|e_0 \rangle = \frac{(-1)^{f(0)}|00\rangle + (-1)^{f(1)}|01\rangle + (-1)^{f(2)}|10\rangle + (-1)^{f(3)}|11\rangle}{\sqrt{M}}
 $$
 
-Here, we rewrite the states with binary case with:
+Here, we rewrite the states with binary number with:
 
 $$
 |00\rangle = 
@@ -77,4 +77,11 @@ $$
 \begin{pmatrix}
 0 \\ 0 \\ 0 \\ 1
 \end{pmatrix} ^T
+$$
+
+Therefore, if the function is **balanced**, then $2$ of the functions value is $1$, the other $2$ functions' value is $0$.
+
+WLOG. we can set $V_f|e_0 \rangle$ with:
+$$
+V_f|e_0 \rangle = \frac{1}{\sqrt{M}} \begin{pmatrix} 1 & 0 &0 & 0\\ 0 & 1 & 0 & 0 \\ 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1 \end{bmatrix}
 $$
