@@ -17,7 +17,7 @@ The player's goal is to find out whether the function picked is **constant** or 
 
 Classically, the worst case, we need to ask the referee $\frac{M}{2}+1$ times.
 
-However, quantumly we need only $1$ query.
+However, quantumly we need only $1$ quantum query.
 
 ## 3.Process of Deutsch-Jozsa Algorithm
 
