@@ -79,7 +79,8 @@ $$
 \end{pmatrix} ^T
 $$
 
-Therefore, if the function is **balanced**, then $2$ of the functions value is $1$, the other $2$ functions' value is $0$.
+### 4.3 Balanced Case
+If the function is **balanced**, then $2$ of the functions value is $1$, the other $2$ functions' value is $0$.
 
 WLOG. we can set $V_f|e_0 \rangle$ with:
 ```math
@@ -95,6 +96,19 @@ This is because the corresponding matrix is :
 ```math
 Z\otimes I = \begin{pmatrix} 1 & 0  \\ 0 & -1  \end{pmatrix} \otimes \begin{pmatrix} 1 & 0  \\ 0 & 1  \end{pmatrix} = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1 \end{pmatrix} 
 ```
+
+We then add two $H$ gate and an observation:
+
+![](https://github.com/tzajack/QuantumLearning/blob/main/Deutsch-Jozsa%20Algorithm/3.PNG)
+
+Recall that outcome of this circuit should be always $1$(not $0$) as we previously defined. Let's run the circuit on Quleaf.
+
+![](https://github.com/tzajack/QuantumLearning/blob/main/Deutsch-Jozsa%20Algorithm/4.PNG)
+
+We can see that for $1000$ simulation, the result is always $1$.
+
+
+
 
 
 
