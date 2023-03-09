@@ -1,4 +1,4 @@
-# QuantumLearning
+# Quantum ML&Computing Learning
 Python code for quantum machine learning and Quleaf quantum circuit demostration for quantum computing algorithms
 
 
