@@ -17,6 +17,8 @@ Differences from the document: add a constant coefficient and a bias to the fina
 
 
 ## Deutsch-Joza Algorithm
-The md file is the explanation of how to demostrate Deutsch-Joza algorithm on Quleaf.
+A demostration of Deutsch-Joza algorithm on Baidu Quleaf
+
+The md file is the explanation of some theory and how to demostrate the algorithm on Quleaf.
 
 Code for build the ciruit in QComposer on Quleaf can be found at Quleaf_Code_balanced and Quleaf_Code_constant
