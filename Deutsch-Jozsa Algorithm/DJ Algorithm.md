@@ -83,5 +83,5 @@ Therefore, if the function is **balanced**, then $2$ of the functions value is $
 
 WLOG. we can set $V_f|e_0 \rangle$ with:
 $$
-V_f|e_0 \rangle = \frac{1}{\sqrt{M}} \begin{pmatrix} 1 & 0 &0 & 0\\ 0 & 1 & 0 & 0 \\ 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1 \end{bmatrix}
+\frac{1}{\sqrt{M}} \begin{pmatrix} 1 & 0 &0 & 0\\ 0 & 1 & 0 & 0 \\ 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1 \end{pmatrix}
 $$
