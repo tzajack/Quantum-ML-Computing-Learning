@@ -115,8 +115,16 @@ If the function is **constant**, $V_f|0 \rangle$ becomes:
  \frac{\pm 1}{\sqrt{M}} \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix} 
 ```
 
-Since the 'up to same state' property, the result is just the identity.
+Since the 'up to same state' property, the result is just the identity. Hence, we just replace $Z\otimes I$ with $I \otimes I$.
 
+![](https://github.com/tzajack/QuantumLearning/blob/main/Deutsch-Jozsa%20Algorithm/5.PNG)
 
+Recall that we should always get result $0$.
+
+![](https://github.com/tzajack/QuantumLearning/blob/main/Deutsch-Jozsa%20Algorithm/6.PNG)
+
+We can see that the simulation result agrees with our theory.
+
+Code for QComposer can be found at 'Quleaf_Code_constant'.
 
 
