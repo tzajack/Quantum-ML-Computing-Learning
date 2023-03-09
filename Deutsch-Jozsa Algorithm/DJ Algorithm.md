@@ -79,7 +79,7 @@ $$
 \end{pmatrix} ^T
 $$
 
-### 4.3 Balanced Case
+### 4.1 Balanced Case
 If the function is **balanced**, then $2$ of the functions value is $1$, the other $2$ functions' value is $0$.
 
 WLOG. we can set $V_f|e_0 \rangle$ with:
@@ -107,7 +107,15 @@ Recall that outcome of this circuit should be always $1$(not $0$) as we previous
 
 We can see that for $1000$ simulation, the result is always $1$.
 
+Code for QComposer can be found at 'Quleaf_Code_balanced'.
+### 4.2 Constant Case
+If the function is **constant**, $V_f|0 \rangle$ becomes:
+```math
 
+ \frac{\pm 1}{\sqrt{M}} \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix} 
+```
+
+Since the 'up to same state' property, the result is just the identity.
 
 
 
