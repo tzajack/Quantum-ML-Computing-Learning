@@ -87,4 +87,14 @@ WLOG. we can set $V_f|e_0 \rangle$ with:
  \frac{1}{\sqrt{M}} \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1 \end{pmatrix} 
 ```
 
+This state can be prepared by adding a $Z$ gate on the first qubit:
+
+![](https://github.com/tzajack/QuantumLearning/blob/main/Deutsch-Jozsa%20Algorithm/2.PNG)
+
+This is because the corresponding matrix is :
+```math
+Z\otimes I = \begin{pmatrix} 1 & 0  \\ 0 & -1  \end{pmatrix} \otimes \begin{pmatrix} 1 & 0  \\ 0 & 1  \end{pmatrix} = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1 \end{pmatrix} 
+```
+
+
 
