@@ -37,4 +37,14 @@ The initial state of Quleaf on each qubit is always $|0 \rangle$, so apply two $
 
 ![](https://github.com/tzajack/QuantumLearning/blob/main/Deutsch-Jozsa%20Algorithm/1.PNG)
 
-The state after reduced oracle is $V_f|e_0 \rangle = \frac{\Sigma^{M-1}_{x=0} (-1)^{f(x)} |x \rangle  }{\sqrt(M) } $
+The state after reduced oracle is:
+
+$$
+V_f|e_0 \rangle = \frac{\Sigma^{M-1}_{x=0} (-1)^{f(x)} |x \rangle  }{\sqrt(M) } 
+$$
+
+We rewrite this equation with $M=4$ case: 
+
+$$
+V_f|e_0 \rangle = \frac{(-1)^{f(0)}|00\rangle + (-1)^{f(1)}|01\rangle + (-1)^{f(2)}|10\rangle + (-1)^{f(3)}|11\rangle}{\sqrt{M}}
+$$
