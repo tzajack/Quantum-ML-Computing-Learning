@@ -24,3 +24,6 @@ However, quantumly we need only $1$ query.
 1. Prepare the system in Fourier state $|e_0\rangle = \frac{|0\rangle + |1\rangle + ... + |M-1\rangle}{\sqrt{M}}$
 2. Apply the reduced oracle $V_f$
 3. Measure on the Fourier basis $\\{ e_m \\}^{M-1}_{m=0} $
+   If the outcome is $0$, the function is **constant**.
+   If the outcome is not $0$, the function is **Balanced**.
+   
