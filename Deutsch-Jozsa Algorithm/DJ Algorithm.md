@@ -48,3 +48,12 @@ We rewrite this equation with $M=4$ case:
 $$
 V_f|e_0 \rangle = \frac{(-1)^{f(0)}|00\rangle + (-1)^{f(1)}|01\rangle + (-1)^{f(2)}|10\rangle + (-1)^{f(3)}|11\rangle}{\sqrt{M}}
 $$
+
+Here, we rewrite the states with binary case with:
+
+$$
+|00\rangle = 
+\begin{pmatrix}
+1 \\ 0 \\ 0 \\ 0
+\end{pmatrix}
+$$
