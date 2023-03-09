@@ -15,3 +15,8 @@ Original document site:[https://qml.baidu.com/tutorials/machine-learning/quantum
 
 Differences from the document: add a constant coefficient and a bias to the final output in order to fit functions in wider range
 
+
+## Deutsch-Joza Algorithm
+The md file is the explanation of how to demostrate Deutsch-Joza algorithm on Quleaf.
+
+Code for build the ciruit in QComposer on Quleaf can be found at Quleaf_Code_balanced and Quleaf_Code_constant
