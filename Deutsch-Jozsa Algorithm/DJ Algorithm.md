@@ -33,7 +33,7 @@ Let take $M=4$ as an example.
 
 We need $2$ qubits to demostrate the algorithm.
 
-The initial state of Quleaf on each qubit is always $|0 \rangle$, so apply two $H$ gate will prepare the Fourier state.
+The initial state of Quleaf on each qubit is always $|0 \rangle$, so apply two $H$ gate will prepare the superposition of all possible input states.
 
 ![](https://github.com/tzajack/QuantumLearning/blob/main/Deutsch-Jozsa%20Algorithm/1.PNG)
 
