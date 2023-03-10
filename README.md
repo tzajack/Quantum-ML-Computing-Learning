@@ -44,7 +44,7 @@ The Pauli observation taken, $O \in \\{ I,X,Y,Z \\}^{\otimes N}$, has the expect
 
 $\langle O \rangle = tr(\rho_{out}O) = tr((\Sigma_k b_k(x,\theta) P_k)O) = tr((b_1 P_1 + b_2 P_2 + ... + b_n P_n)O)$ 
 
-Since $P_1,P_2,...,P_n,B \in \\{ I,X,Y,Z \\}^{\otimes N}$, the product will remain the diagonal elements, hence $\rangle O \langle$ is just the value of $b_m(x,\theta)$
+Since $P_1,P_2,...,P_n,B \in \\{ I,X,Y,Z \\}^{\otimes N}$, the product will remain the diagonal elements, hence $\langle O \rangle$ is just the value of $b_m(x,\theta)$
 
 One can find a matrix of element $u_{ij}(\theta)$, such that $b_m(x,\theta) = \Sigma_k u_{m,k}(\theta)a_k(x)$. Hence, the output is linear combination of input coefficient functions $a_k(x)$ with the unitarity constraints of $u_{ij}(\theta)$
 
