@@ -42,12 +42,12 @@ Similarly, the output density operator after $U(\theta)$ can be written in anoth
 
 The Pauli observation taken, $O \in \\{ I,X,Y,Z \\}^{\otimes N}$, has the expectation:
 
-$\rangle O \langle = tr(\rho_{out}O) = tr((\Sigma_k b_k(x,\theta) P_k)O) = tr((b_1 P_1 + b_2 P_2 + ... + b_n P_n)O)$ 
+$\langle O \rangle = tr(\rho_{out}O) = tr((\Sigma_k b_k(x,\theta) P_k)O) = tr((b_1 P_1 + b_2 P_2 + ... + b_n P_n)O)$ 
 
 Since $P_1,P_2,...,P_n,B \in \\{ I,X,Y,Z \\}^{\otimes N}$, there product will remain the diagonal elements, hence $\rangle O \langle$ is just the value of $b_m(x,\theta)$
 
 One can find a matrix of element $u_{ij}(\theta)$, such that $b_m(x,\theta) = \Sigma_k u_{m,k}(\theta)a_k(x)$. Hence, the output is linear combination of input coefficient functions $a_k(x)$ with the unitarity constraints of $u_{ij}(\theta)$
 
-In normal regularization, $L = \Sigma_i ||f(x_i)-w*\phi(x_i)||^2 + ||w||^2$, but in this case, $w$ corresponds to row vector $u_i$ and $\phi$ corresponds $a_k$. 
+In normal regularization, $L = \Sigma_i ||f(x_i)-w*\phi(x_i)||^2 + ||w||^2$, but in this case, $w$  is the row vector $u_i$ and $\phi$ is the coefficient $a_k$. 
 
-Due to the unitarity of $u_i$, the norm of $u_i$ is a constant. That is, the regularization term is a constant, the model do not have to trade off bewteen regularization term and the loss.
+**Due to the unitarity of $u_i$, the norm of $u_i$ is a constant. That is, the regularization term is a constant, the model do not have to trade off bewteen regularization term and the loss.**
