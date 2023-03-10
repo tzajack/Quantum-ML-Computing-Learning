@@ -27,8 +27,8 @@ The md file is the explanation of some theory and how to demostrate the algorith
 Code for build the ciruit in QComposer on Quleaf can be found at Quleaf_Code_balanced and Quleaf_Code_constant
 
 
-## Implementation of the Overfit-preventing Property from the QCL Paper
-A demostration of a simple example that QNN can eliminate overfitting.
+## No Overfit for QNN
+A implementation of the overfit-preventing property metioned in the QCL Paper
 
 Original paper:[https://doi.org/10.48550/arXiv.1803.00745](https://doi.org/10.48550/arXiv.1803.00745).Relevent content in last paragraph of part C.Ability to approximate a function 
 
