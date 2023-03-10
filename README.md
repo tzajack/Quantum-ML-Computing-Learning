@@ -30,7 +30,7 @@ Code for build the ciruit in QComposer on Quleaf can be found at Quleaf_Code_bal
 ## No Overfit for QNN
 A implementation of the overfit-preventing property metioned in the QCL Paper
 
-Original paper:[https://doi.org/10.48550/arXiv.1803.00745](https://doi.org/10.48550/arXiv.1803.00745).Relevent content in last paragraph of part C.Ability to approximate a function 
+Original paper:[https://doi.org/10.48550/arXiv.1803.00745](https://doi.org/10.48550/arXiv.1803.00745).(*Relevent content in the last paragraph of part C.Ability to approximate a function*)
 
 Here give a more detailed explanation than the one in the paper:
 
