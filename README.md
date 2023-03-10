@@ -25,3 +25,29 @@ A demostration of Deutsch-Joza algorithm on Baidu Quleaf
 The md file is the explanation of some theory and how to demostrate the algorithm on Quleaf.
 
 Code for build the ciruit in QComposer on Quleaf can be found at Quleaf_Code_balanced and Quleaf_Code_constant
+
+
+## Implementation of the Overfit-preventing Property from the QCL Paper
+A demostration of a simple example that QNN can eliminate overfitting.
+
+Original paper:[https://doi.org/10.48550/arXiv.1803.00745](https://doi.org/10.48550/arXiv.1803.00745).Relevent content in last paragraph of part C.Ability to approximate a function 
+
+Here give a more detailed explanation than the one in the paper:
+
+Let $\\{ P_k \\} = \\{ I,X,Y,Z \\}^{\otimes N}$, a set of Pauli operators.
+
+The input density operator, $\rho_{in}$, can be expand as some combination of $P_k$, i.e. $\rho_{in} = \Sigma_k a_k(x) P_k$ for some coefficient $a_k(x)$ depends on input $x$.
+
+Similarly, the output density operator after $U(\theta)$ can be written in another set of coefficent $b_k(x,\theta)$ combine with $P_k$, $\rho_{out} = \Sigma_k b_k(x,\theta) P_k$.
+
+The Pauli observation taken, $O \in \\{ I,X,Y,Z \\}^{\otimes N}$, has the expectation:
+
+$\rangle O \langle = tr(\rho_{out}O) = tr((\Sigma_k b_k(x,\theta) P_k)O) = tr((b_1 P_1 + b_2 P_2 + ... + b_n P_n)O)$ 
+
+Since $P_1,P_2,...,P_n,B \in \\{ I,X,Y,Z \\}^{\otimes N}$, there product will remain the diagonal elements, hence $\rangle O \langle$ is just the value of $b_m(x,\theta)$
+
+One can find a matrix of element $u_{ij}(\theta)$, such that $b_m(x,\theta) = \Sigma_k u_{m,k}(\theta)a_k(x)$. Hence, the output is linear combination of input coefficient functions $a_k(x)$ with the unitarity constraints of $u_{ij}(\theta)$
+
+In normal regularization, $L = \Sigma_i ||f(x_i)-w*\phi(x_i)||^2 + ||w||^2$, but in this case, $w$ corresponds to row vector $u_i$ and $\phi$ corresponds $a_k$. 
+
+Due to the unitarity of $u_i$, the norm of $u_i$ is a constant. That is, the regularization term is a constant, the model do not have to trade off bewteen regularization term and the loss.
