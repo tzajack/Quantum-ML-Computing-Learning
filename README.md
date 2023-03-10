@@ -51,3 +51,18 @@ One can find a matrix of element $u_{ij}(\theta)$, such that $b_m(x,\theta) = \S
 In normal regularization, $L = \Sigma_i ||f(x_i)-w*\phi(x_i)||^2 + ||w||^2$, but in this case, $w$  is the row vector $u_i$ and $\phi$ is the coefficient $a_k$. 
 
 **Due to the unitarity of $u_i$, the norm of $u_i$ is a constant. That is, the regularization term is a constant, the model do not have to trade off bewteen regularization term and the loss.**
+
+
+
+# Variation Shadow Quantum Learning 
+
+A mixed method of classical fully connected network and quantum networks.
+
+Original paper: [https://doi.org/10.1609/aaai.v35i9.17016](https://doi.org/10.1609/aaai.v35i9.17016)
+
+The code follows the paper mainly so the differences compare to the tutorial of paddle_quantum are:
+1. Use the titanic dataset again to avoid long training time(originally done by MINST dataset)
+2. Use MSE Loss instead of cross-entropy loss 
+3. Use a classical FCNN with output dimenson of $1$ and use sigmoid instead of softmax 
+
+
